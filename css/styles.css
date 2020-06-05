@@ -1,3 +1,17 @@
-#quiz {
-  display: none;
+h1, h4, p, label {
+  color:white;
 }
+
+h1, h4 {
+  text-align: center;
+}
+
+#result {
+  display:none;
+}
+
+#quiz {
+  display:none;
+}
+
+
