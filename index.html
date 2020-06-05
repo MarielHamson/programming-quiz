@@ -37,7 +37,7 @@
       </div>
       <form id="quiz">
         <p>Which Harry Potter character are you most like?</p>
-        <select class="form-control" id="hero">
+        <select class="form-control" id="hero" name=hpchar>
           <option value="3">Severus Snape</option>
           <option value="2">Harry Potter</option>
           <option value="4">Hermione Granger</option>
@@ -65,7 +65,7 @@
         </div>
         <div class="form-group">
           <label for="color">Which color best represents your soul?</label>
-          <input id="color" class="form-control" type="color">
+          <input id="color" class="form-control" type="color" name=color>
         </div>
         <p>Which Star Trek franchise has the best captain?</p>
         <div class="radio">
@@ -87,7 +87,7 @@
           </label>
         </div>
         <p>Please choose the correct way to hang toilet paper:</p>
-        <select class="form-control" id="tp">
+        <select class="form-control" id="tp" name=tp>
           <option value="3">Over</option>
           <option value="2">Under</option>
           <option value="4">Bidet all the way</option>
@@ -97,6 +97,9 @@
         <br>
         <div class="form-group">
           <button type="submit" class="btn btn-success btn-fill">Submit</button>
+        </div>
+        <div id="output">
+          <p> You Should Study: <span class=langResult> </span></p>
         </div>
       </form>
     </div>
