@@ -22,6 +22,10 @@ Navigate to: https://marielhamson.github.io/programming-quiz
 
 Feel free to reach out if you have any questions or suggestions!
 
+## Known issues and bugs
+
+When user clicks color picker, the next question is shown before they select a color.
+
 ## Contributors
 
 Thanks to the following people who have contributed to this project:
