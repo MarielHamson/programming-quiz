@@ -24,7 +24,8 @@ Feel free to reach out if you have any questions or suggestions!
 
 ## Known issues and bugs
 
-When user clicks color picker, the next question is shown before they select a color.
+1. When user clicks color picker, the next question is shown before they select a color.
+2. firstName variable is globally scoped
 
 ## Contributors
 
