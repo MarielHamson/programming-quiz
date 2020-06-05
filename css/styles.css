@@ -1,17 +1,21 @@
-h1, h4, p, label {
+body {
+  background-image: url("../img/background.jpg");
+}
+
+/* h1, h4, p, label {
   color:white;
 }
 
 h1, h4 {
   text-align: center;
-}
+} */
 
-#result {
+/* #result {
   display:none;
-}
+} */
 
-#quiz {
+/* #quiz {
   display:none;
-}
+} */
 
 
