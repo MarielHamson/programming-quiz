@@ -20,27 +20,87 @@
     <div class="cover black"></div>
     <div class="container">
         <h1 class="quiz-name">
-            Which Programming Language Should You Learn?
+            Answer These Questions and Find Out Your True Programming Path
         </h1>        
     <div class="content">
-      <h4 class="sub-header">Take this quiz to find out!</h4>
+      <h4 class="sub-header">TBH, It Has Nothing To Do With Programming</h4>
         <div class="row">
         <div class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 ">
           <form class="form-inline" role="form">
             <div class="form-group">
-              <label class="sr-only" for="exampleInputName">Name</label>
+              <label class="sr-only" for="exampleInputName">Who are you?</label>
               <input type="name" class="form-control transparent" id = name placeholder="Your name here...">
             </div>
-            <button type="submit" class="btn btn-danger btn-fill">Start Now</button>
+            <button type="submit" class="btn btn-danger btn-fill">Roll the Dice...</button>
           </form>
         </div>
       </div>
       <form id="quiz">
-        
-          </form>
-          </div>
+        <p>Which Harry Potter character are you most like?</p>
+        <select class="form-control" id="hero">
+          <option value="3">Severus Snape</option>
+          <option value="2">Harry Potter</option>
+          <option value="4">Hermione Granger</option>
+          <option value="1">Luna Lovegood</option>
+        </select>
+        <br>
+        <p>Choose your favorite board game:</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="game" value="settlers" checked>
+            Settlers of Catan
+          </label>
         </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="game" value="monopoly">
+            Monopoly
+          </label>
         </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="game" value="pandemic">
+            Pandemic
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="color">Which color best represents your soul?</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+        <p>Which Star Trek franchise has the best captain?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="tng" checked>
+            The Next Generation
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="voyager">
+            Voyager
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="ds9">
+            Deep Space Nine
+          </label>
+        </div>
+        <p>Please choose the correct way to hang toilet paper:</p>
+        <select class="form-control" id="tp">
+          <option value="3">Over</option>
+          <option value="2">Under</option>
+          <option value="4">Bidet all the way</option>
+          <option value="1">I just put it on the counter like a heathen</option>
+        </select>
+        <br>
+        <br>
+        <div class="form-group">
+          <button type="submit" class="btn btn-success btn-fill">Submit</button>
+        </div>
+      </form>
     </div>
+  </div>
+</div>
 </body>
 </html>
