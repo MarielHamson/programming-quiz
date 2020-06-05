@@ -23,13 +23,13 @@ $("form#quiz").submit(function(event) {
   let result = add(question1, question2, question4, question5);
 
   if (result >= 6 && result <= 10) {
-    $(".langResult").append("Ruby" + ", " + firstName);
+    $(".langResult").text("Ruby" + ", " + firstName);
   } else if (result >=11 && result <= 15) {
-    $(".langResult").append("Javascript" + ", " + firstName);
+    $(".langResult").text("Javascript" + ", " + firstName);
   } else if (result >= 15 && result <=20) {
-    $(".langResult").append("Python" + ", " + firstName);
+    $(".langResult").text("Python" + ", " + firstName);
   } else {
-    $(".langResult").append("how to hang toilet paper", + firstName);
+    $(".langResult").text("How to Hang Toilet Paper", + firstName);
   }
   $("#output").show();
   });
