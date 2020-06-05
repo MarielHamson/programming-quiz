@@ -31,5 +31,6 @@ $("form#quiz").submit(function(event) {
   } else {
     $("#langResult").text("How to Hang Toilet Paper", + firstName);
   }
+  // $("#output").show();
   });
 });
