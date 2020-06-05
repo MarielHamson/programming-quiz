@@ -10,6 +10,7 @@ $(document).ready(function() {
     $("#quiz").show();
     event.preventDefault();
   });
+
 // User Interface Logic
 
 $("form#quiz").submit(function(event) {
@@ -20,7 +21,6 @@ $("form#quiz").submit(function(event) {
   const question5 = parseInt($("#tp").val());
   console.log(firstName, question1, question2, question4, question5);
   let result = add(question1, question2, question4, question5);
-
 
   if (result >= 6 && result <= 10) {
     $(".langResult").append("Ruby" + ", " + firstName);
