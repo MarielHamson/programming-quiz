@@ -39,7 +39,7 @@ body {
   font-weight: 300;
   }
 
-#quiz {
+#q1, #q2, #q3, #q4, #q5 {
   display:none;
   max-width: 400px;
 }

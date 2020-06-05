@@ -10,10 +10,19 @@ $(document).ready(function() {
     $("#q1").fadeIn();
     event.preventDefault();
   });
-  $("#hero").on('change',function(){
+  $("#hero").focus(function(){
     $("#q2").fadeIn();
-  })
-
+  });
+  $("[name='game']").focus(function(){
+    $("#q3").fadeIn();
+  });
+  $("#color").focus(function(){
+    $("#q4").fadeIn();
+  });
+  $("[name='captain']").focus(function() {
+    $("#q5").fadeIn();
+  });
+ 
 // User Interface Logic
 
 $("form#quiz").submit(function(event) {
