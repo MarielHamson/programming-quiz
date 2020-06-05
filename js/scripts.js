@@ -7,9 +7,12 @@ const add = function(question1, question2, question4, question5) {
 $(document).ready(function() {
   $(".form-inline").submit(function(event) {
     firstName = $("input#name").val();
-    $("#quiz").show();
+    $("#q1").fadeIn();
     event.preventDefault();
   });
+  $("#hero").on('change',function(){
+    $("#q2").fadeIn();
+  })
 
 // User Interface Logic
 

@@ -34,6 +34,7 @@
         </div>
       </div>
       <form id="quiz">
+        <div id="q1">
         <p>Which Harry Potter character are you most like?</p>
         <select class="form-control" id="hero" name=hpchar>
           <option value="3">Severus Snape</option>
@@ -41,7 +42,9 @@
           <option value="4">Hermione Granger</option>
           <option value="1">Luna Lovegood</option>
         </select>
+        </div>
         <br>
+        <div id="q2">
         <p>Choose your favorite board game:</p>
         <div class="radio">
           <label>
@@ -61,11 +64,15 @@
             Pandemic
           </label>
         </div>
+      </div>
+      <div id="q3">
         <div class="form-group">
           <label for="color">Which color best represents your soul?</label>
           <input id="color" class="form-control" type="color" name=color>
         </div>
-        <p>Which Star Trek franchise has the best captain?</p>
+        </div>
+        <div id="q4">
+          <p>Which Star Trek franchise has the best captain?</p>
         <div class="radio">
           <label>
             <input type="radio" name="captain" value="3">
@@ -84,16 +91,19 @@
             Deep Space Nine
           </label>
         </div>
-        <p>Please choose the correct way to hang toilet paper:</p>
+        </div>
+        <div id="q5"><p>Please choose the correct way to hang toilet paper:</p>
         <select class="form-control" id="tp" name=tp>
           <option value="3">Over</option>
           <option value="2">Under</option>
           <option value="4">Bidet all the way</option>
           <option value="100">I just put it on the counter like a heathen</option>
         </select>
+      
         <br>
   <div class="form-group">
     <button type="submit" class="btn btn-success btn-fill" data-toggle="modal" data-target="#myModal">Submit</button>
+  </div>
 </form>
 <div id="myModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
