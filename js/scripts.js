@@ -3,6 +3,7 @@
 const add = function(question1, question2, question4, question5) {
   return question1 + question2 + question4 + question5
 }
+// User Interface Logic
 
 $(document).ready(function() {
   $(".form-inline").submit(function(event) {
@@ -21,9 +22,9 @@ $(document).ready(function() {
   });
   $("[name='captain']").focus(function() {
     $("#q5").fadeIn();
+    $("body").scrollTop($("#tp").position().top)
   });
- 
-// User Interface Logic
+
 
 $("form#quiz").submit(function(event) {
   event.preventDefault()
@@ -43,6 +44,5 @@ $("form#quiz").submit(function(event) {
   } else {
     $("#langResult").text("How to Hang Toilet Paper", + firstName);
   }
-  // $("#output").show();
   });
 });
