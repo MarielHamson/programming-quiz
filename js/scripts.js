@@ -36,13 +36,13 @@ $("form#quiz").submit(function(event) {
   let result = add(question1, question2, question4, question5);
 
   if (result >= 6 && result <= 10) {
-    $("#langResult").text("Ruby" + firstName);
+    $("#langResult").text(firstName + ": " + "Ruby ");
   } else if (result >=11 && result <= 15) {
-    $("#langResult").text("Javascript" + firstName);
+    $("#langResult").text(firstName + ": " + "Javascript ");
   } else if (result >= 15 && result <=20) {
-    $("#langResult").text("Python" + firstName);
+    $("#langResult").text(firstName + ": " + "Python ");
   } else {
-    $("#langResult").text("How to Hang Toilet Paper" + ", " + firstName);
+    $("#langResult").text(firstName + ": " + "How to Hang Toilet Paper");
   }
   });
 });
