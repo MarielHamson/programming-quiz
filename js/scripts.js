@@ -10,18 +10,17 @@ $(document).ready(function() {
       $("#q1").fadeIn();
       event.preventDefault();
   });
-  $("#hero").focus(function() {
+  $("#hero").change(function() {
       $("#q2").fadeIn();
   });
-  $("[name='game']").focus(function() {
+  $("[name='game']").click(function() {
       $("#q3").fadeIn();
   });
-  $("#color").focus(function() {
+  $("#color").click(function() {
       $("#q4").fadeIn();
   });
-  $("[name='captain']").focus(function() {
+  $("[name='captain']").click(function() {
       $("#q5").fadeIn();
-      $("body").scrollTop($("#tp").position().top)
   });
 
 
@@ -41,7 +40,7 @@ $(document).ready(function() {
       } else if (result >= 15 && result <= 20) {
           $("#langResult").text(firstName + ": " + "Python ");
       } else {
-          $("#langResult").text(firstName + ": " + "How to Hang Toilet Paper");
+          $("#langResult").text(firstName + ": " + "How to Hang Toilet Paper ");
       }
   });
 });
