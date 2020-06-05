@@ -44,13 +44,21 @@ body {
   font-weight: 300;
   }
 
-#result {
-  display:none;
-} 
-
 #quiz {
   display:none;
   max-width: 400px;
 }
 
+.modal-header {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  line-height: 20px;
+}
 
+.modal-body p {
+  color: black;
+  font-size: 18px;
+  color: black;
+  line-height: 20px;
+}
